@@ -26,8 +26,6 @@ function App() {
       <div>
         <h1>AWS Instance CPU Usage</h1>
       </div>
-
-      {/* Pass handlers to Form */}
       <Form onDataLoad={handleDataLoad} onError={handleError} />
 
       {error && <p style={{ color: "red" }}>Error: {error}</p>}
