@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+label{
+    padding: 0.5%;
+}
+input,select{
+    margin-left: 0.2%;
+    padding: auto;
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: white; 
+    cursor: pointer; 
+    background-color:  #4681f4;
+    border: 2px solid  #4681f4; 
+}
+button:hover{
+    background-color: white; 
+    border: 2px solid  #4681f4; 
+    color: #4681f4; 
+}

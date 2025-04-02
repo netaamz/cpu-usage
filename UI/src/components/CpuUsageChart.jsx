@@ -23,10 +23,10 @@ const CpuUsageChart = ({ data }) => {
       {
         label: "Metric Data",
         data: values,
-        borderColor: "rgba(255, 99, 132, 1)", 
-        backgroundColor: "rgba(255, 99, 132, 0.2)", 
+        borderColor: "rgb(253, 84, 121)", 
+        backgroundColor: "rgba(155, 154, 154, 0.23)", 
         pointRadius: 3,
-        pointBackgroundColor: "rgba(255, 99, 132, 1)",
+        pointBackgroundColor: "rgba(199, 192, 194, 0.21)",
         borderWidth: 2,
         tension: 0.3, 
       },
@@ -48,7 +48,7 @@ const CpuUsageChart = ({ data }) => {
     },
     plugins: {
       legend: {
-        display: true,
+        postion: top,
       },
     },
   };

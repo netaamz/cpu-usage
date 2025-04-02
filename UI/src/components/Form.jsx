@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Form = ({ onDataLoad, onError }) => {
   const [form, setForm] = useState({
-    time_period: "1", // Default to 'Last Hour'
+    time_period: "3", // Default to 'Last 3 Hours'
     period: "",
     ip: "",
   });
