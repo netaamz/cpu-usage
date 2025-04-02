@@ -25,6 +25,7 @@ Create a `.env` file inside the `server` folder and add your AWS credentials:
 ```
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
+REGION=your-region
 ```
 
 ## Running the Application
